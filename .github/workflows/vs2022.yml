@@ -14,7 +14,7 @@ on:
       - '**.bat'
       - '**.md'
 
-  on:
+  push:
     branches:
       - master
       - dev
