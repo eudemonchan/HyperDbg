@@ -6,7 +6,20 @@ on:
       - master
       - dev
     tags:
-      - v*
+      - 'v*'
+    paths-ignore:
+      - '.gitignore'
+      - '.gitattributes'
+      - '**.cmd'
+      - '**.bat'
+      - '**.md'
+
+  on:
+    branches:
+      - master
+      - dev
+    tags:
+      - 'v*'
     paths-ignore:
       - '.gitignore'
       - '.gitattributes'
